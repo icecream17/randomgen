@@ -1,0 +1,139 @@
+$name : Noun Generator
+$author : Orteil
+$description : Creates the most ridiculous and complicated nouns.
+$amount : 1
+$button : !
+
+$allow duplicates
+
+
+$articleOfGrammar
+a
+an
+the
+
+
+
+
+
+
+
+
+
+
+
+
+$colorish
+TODO
+
+$brightnessAdjective
+TODO
+
+$otherColorAdjective
+muddy
+clear
+shiny
+boring
+sharp
+
+
+
+
+
+
+
+
+$statisticChallenge
+how many different checkmates there are
+
+$colorDescriptor
+[colorish]
+[brightnessAdjective]
+[otherColorAdjective]
+
+
+
+
+
+
+
+
+
+
+
+$emptySet
+empty set
+
+$color
+[colorDescriptor] [colorValue]
+
+$physicalQuantity
+TODO
+
+$physicalProperty
+
+$challenge
+clicking all blue right-pointing triangles in the wikidata category "Physical Properties" until all such triangles are off the page
+figure out [statisticChallenge]
+
+$verb
+
+$wayToDescribeThing
+thing
+noun
+something
+object
+
+
+$objectList
+[object]
+[object], [objectList]
+
+$physicalProperty
+TODO
+
+
+
+
+
+
+
+
+
+
+
+
+$object
+[color]
+[physicalQuantity]
+[chemicalProperty]
+
+$setOfObjects
+An [emptySet] of [wayToDescribeThing]s
+[object]
+[An] [adjectives] list containing the following items: ([objectList])
+
+
+$action
+[challenge]
+[verb]
+
+$state
+TODO
+
+$quality
+[physicalProperty]
+
+
+
+
+
+
+
+
+$noun
+[object]
+[setOfObjects]
+[action]
+[state]
+[quality]
