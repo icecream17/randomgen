@@ -1,5 +1,5 @@
 $name : Noun Generator
-$author : Orteil
+$author : icecream17
 $description : Creates the most ridiculous and complicated nouns.
 $amount : 1
 $button : !
@@ -14,6 +14,27 @@ the
 
 
 
+$transparencyAdjective
+transparent
+translucent
+opaque
+clear
+
+$saturation
+saturated
+de-saturated
+
+$patternAdjective
+striped
+spotted
+zigzagging
+
+$appetizingAdjective
+appetizing
+in-appetizing
+
+
+
 
 
 
@@ -24,18 +45,118 @@ the
 
 
 $colorish
-TODO
+bluish
+grayish
+greenish
+orangey
+reddish
+purplish
+
 
 $brightnessAdjective
-TODO
+bright
+shiny
+dull
 
 $otherColorAdjective
 muddy
-clear
-shiny
+flourescent
 boring
 sharp
+monochrome
+bold
+antique
+firey
+pale
+faded
+metallic
+snowy
+watery
+[appetizingAdjective]
+[patternAdjective]
+[saturation]
+[transparencyAdjective]
 
+$colorSimple
+amaranth
+amber
+amethyst
+apricot
+ash
+azure
+black
+blue
+bronze
+brown
+burgundy
+carnelian
+celadon
+cerulean
+chocolate
+cinnabar
+cinnamon
+colbalt blue
+copper
+coral
+cream
+crimson
+fuchsia
+gold
+gray
+green
+hazel
+indigo
+ivory
+lemon
+lime
+magenta
+mango
+mauve
+maroon
+mustard
+navy
+navy blue
+olive
+orange
+peach
+pink
+purple
+rainbow
+red
+robin egg blue
+rose
+rust
+saffron
+salmon
+sepia
+scarlet
+silver
+snow
+sulphur
+tan
+teal
+terracotta
+turquoise
+ultramarine
+vermillion
+violet
+white
+wood
+yellow
+zebra
+
+$foodColor
+spaghetti
+orange
+wood
+orange
+olive
+peach
+pizza
+apricot
+mustard
+cream
+applesauce
 
 
 
@@ -47,10 +168,14 @@ $statisticChallenge
 how many different checkmates there are
 
 $colorDescriptor
-[colorish]
 [brightnessAdjective]
 [otherColorAdjective]
 
+$colorValue
+[colorSimple]
+[foodColor]
+[colorish] [colorValue]
+[colorValue]-[colorValue]
 
 
 
