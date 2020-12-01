@@ -14,6 +14,11 @@ the
 
 
 
+$questions
+what is the line thing going across the window
+
+
+
 $transparencyAdjective
 transparent
 translucent
